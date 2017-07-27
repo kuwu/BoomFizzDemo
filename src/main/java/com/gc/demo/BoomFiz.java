@@ -11,24 +11,25 @@ public class BoomFiz {
 
   public String boom(int number){
 
-    Scanner scan = new Scanner(System.in);
-    System.out.println("Please enter a number between 1 and 100");
-    number = scan.nextInt();
-
-
-      boolean boom = false;
-      if (number %7 == 0){
-        System.out.println("BOOM");
-            boom = true;
-      }
-      else {
-        System.out.println(number);
-        boom = false;
-      }
-
-
-
-
-    return boom( number );
+//    Scanner scan = new Scanner(System.in);
+//    System.out.println("Please enter a number between 1 and 100");
+//    number = scan.nextInt();
+//
+//
+//      boolean boom = false;
+//      if (number %7 == 0){
+//        System.out.println("BOOM");
+//            boom = true;
+//      }
+//      else {
+//        System.out.println(number);
+//        boom = false;
+//      }
+//
+//
+//
+//
+//    return boom( number );
+    return "";
   }
 }
